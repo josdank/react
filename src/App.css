@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+/* Listas de Tareas */
+.lista-tareas {
+  width: 600px;
+  min-height: 500px;
+  background-color: #fefeff;
+  padding: 25px;
+  margin-left: 300px;
+  border-radius: 26px;
+  align-content: center;
+}
+/* Estilo del titulo */
+h1 {
+color: #1b1b32;
+font-size: 25px;
+font-family: Roboto, sans-serif;
+text-align: center;
+margin: 20px 0;
+}
+

@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 
 .App-logo {
@@ -39,20 +41,105 @@
 
 /* Listas de Tareas */
 .lista-tareas {
-  width: 600px;
+  width: 60%;
   min-height: 500px;
-  background-color: #fefeff;
+  background-color: #fefeff ;
   padding: 25px;
   margin-left: 300px;
-  border-radius: 26px;
+  margin-right: 300px;
+  border: 1px solid rgb(79, 90, 171);
+  border-radius: 30px;
   align-content: center;
 }
 /* Estilo del titulo */
 h1 {
-color: #1b1b32;
-font-size: 25px;
-font-family: Roboto, sans-serif;
-text-align: center;
-margin: 20px 0;
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
 }
 
+header {
+  background-color: #8c919784;
+  padding: 20px;
+  color: rgb(22, 17, 56);
+  text-align: center;
+}
+.logo-epn {
+  width: 160px;
+  height: 160px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 300px;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 100px;
+  text-align: center;
+
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+aside {
+  width: 20%;
+  background-color: #f1f1f1;
+  padding: 15px;
+}
+
+.content {
+  width: 75%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #8c919784;
+  color: rgb(22, 17, 56);
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body, sidebar{
+  color: white;
+  background: linear-gradient(135deg, #5757aa11, #5757aa66, #1b1b32);
+  font-family: Lato, sans-serif;
+  margin-top: 40px;
+  background-repeat: no-repeat;
+}
+
+/*logo contenedor*/
+.logo-contenedor{
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*logo*/
+.logo-epn{
+  width: 200px;
+  height: 200px;
+}
